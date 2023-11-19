@@ -64,3 +64,25 @@ svg {
     scroll-behavior: auto !important;
   }
 }
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.card-container {
+  padding-block: 1rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  outline: 1px solid lime;
+}

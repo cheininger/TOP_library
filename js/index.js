@@ -31,7 +31,7 @@ function fillContainer() {
 
     title.textContent = book.name;
     author.textContent = book.author;
-    pages.textContent = book.pages;
+    pages.textContent = `${book.pages} pages`;
 
     if (book.read === true) {
       read.textContent = "Already read";

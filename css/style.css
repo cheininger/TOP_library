@@ -66,11 +66,24 @@ svg {
 }
 
 body {
-  background-color: #338090;
+  background: radial-gradient(
+    rgba(0, 119, 143, 1) 0%,
+    rgba(51, 128, 144, 1) 50%,
+    rgba(99, 135, 143, 1) 100%
+  );
 }
 
 header {
-  background-color: #f37053;
+  background: radial-gradient(
+    rgba(242, 88, 53, 1) 0%,
+    rgba(243, 112, 83, 1) 50%,
+    rgba(242, 149, 128, 1) 100%
+  );
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -81,17 +94,35 @@ h3 {
   font-size: 1.5rem;
 }
 
+.add-book {
+  margin-left: 70%;
+  background-color: rgba(51, 128, 144, 1);
+  border: 3px solid rgba(0, 119, 143, 1);
+  border-radius: 8px;
+  color: #fffff0;
+  height: 2.5rem;
+  width: 10rem;
+}
+
+.add-book:hover {
+  cursor: pointer;
+}
+
 .card-container {
   background-color: wheat;
-  padding-block: 1rem;
+  padding: 1rem;
   width: 80%;
   margin: auto;
   text-align: center;
   display: flex;
+  justify-content: space-around;
   gap: 4rem;
   flex-wrap: wrap;
 }
 
 .book-card {
   outline: 1px solid lime;
+  min-width: 200px;
+  max-width: 250px;
+  flex-grow: 1;
 }

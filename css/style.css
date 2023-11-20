@@ -65,6 +65,14 @@ svg {
   }
 }
 
+body {
+  background-color: #338090;
+}
+
+header {
+  background-color: #f37053;
+}
+
 h2 {
   font-size: 2rem;
 }
@@ -74,6 +82,7 @@ h3 {
 }
 
 .card-container {
+  background-color: wheat;
   padding-block: 1rem;
   width: 80%;
   margin: auto;
